@@ -31,13 +31,17 @@ public class MainActivity extends AppCompatActivity {
                 String inputPassword = passwordEditText.getText().toString();
                 if(inputUser.equals("bbb")&& inputPassword.equals("222")){
                     Intent intent = new Intent(MainActivity.this, ProfileActivity.class);
-                    intent.putExtra("user","bbb");
+                    intent.putExtra("user","Promlert Lovichit");
+                    intent.putExtra("School","สวนกุหลาบวิทยาลัย");
+                    intent.putExtra("live","กรุงเทพมหานคร");
                     startActivity(intent);
 
                 }
                 else if(inputUser.equals("aaa")&& inputPassword.equals("111")){
                     Intent intent = new Intent(MainActivity.this, ProfileActivity.class);
-                    intent.putExtra("user","aaa");
+                    intent.putExtra("user","Nopparat Suwanbamrung");
+                    intent.putExtra("School","สายธรรมจันทร์");
+                    intent.putExtra("live","ราชบุรี");
                     startActivity(intent);
 
                 }
